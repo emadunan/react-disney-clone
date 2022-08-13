@@ -1,9 +1,15 @@
 import './App.css';
+import { Routes, Route } from "react-router-dom";
+
+import Login from "./components/login";
 
 function App() {
   return (
     <div className="App">
-      <h3>Hello, Diseny app!</h3>
+      <Login />
+      <Routes>
+        <Route />
+      </Routes>
     </div>
   );
 }
